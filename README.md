@@ -5,4 +5,4 @@ Con clases, el código es más corto y ordenado, con funciones, es más largo y 
 
 3) Cambiar los métodos que ya vienen en los objetos de JavaScript, como los strings, puede traer problemas.
 
-4) Modificar prototipos nativos como String es peligroso porque podés romper otras partes del código, generar errores difíciles de encontrar y hacer que el código sea menos seguro.
+4) La diferencia entre prototype o object.assing es que  si se asigna el metodo greet directamente con prototype de la función constructura, habra que agregar cada uno de los metodos de forma individual, en cambio con object.assign, se pueden agregar todos los metodos de una sola vez.
